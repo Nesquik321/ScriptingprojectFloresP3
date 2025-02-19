@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
 
     private int experience;
 
-    // Start is called before the first frame update
     public int Experience
     {
         get
@@ -20,8 +19,7 @@ public class Player : MonoBehaviour
             experience = value;
         }
     }
-
-    // Update is called once per frame
+   
     public int Level
     {
         get
